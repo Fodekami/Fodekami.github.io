@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Notes - Fodekami</title>
+    <meta name="description" content="Technical notes, learning logs, and writing topics by Fodekami.">
+    <link rel="canonical" href="https://fodekami.github.io/notes.html">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-page="notes">
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+    <header class="site-header" data-header>
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html" aria-label="Fodekami home">
+          <span class="brand-mark" aria-hidden="true">F</span>
+          <span class="brand-text">Fodekami</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" data-nav-toggle>
+          <span class="sr-only" data-i18n="toggleNav">Toggle navigation</span><span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links" data-nav-links>
+          <a href="about.html" data-i18n="navAbout">About</a>
+          <a href="projects.html" data-i18n="navProjects">Projects</a>
+          <a aria-current="page" href="notes.html" data-i18n="navNotes">Notes</a>
+          <button class="language-toggle" type="button" data-language-toggle aria-label="Switch language">中文</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero section">
+        <p class="eyebrow" data-i18n="navNotes">Notes</p>
+        <h1 data-i18n="notesHeroTitle">Ideas, lessons, and engineering field notes.</h1>
+        <p class="hero-text" data-i18n="notesHeroText">
+          This page is a home for compact essays, project logs, implementation notes, and patterns I
+          want to remember.
+        </p>
+      </section>
+
+      <section class="section section-muted">
+        <div class="notes-grid">
+          <article>
+            <span class="note-number">01</span>
+            <h3 data-i18n="note1Title">Readable code as a collaboration tool</h3>
+            <p data-i18n="note1Text">How naming, file structure, and small interfaces reduce friction for future maintainers.</p>
+          </article>
+          <article>
+            <span class="note-number">02</span>
+            <h3 data-i18n="note2Title">Designing useful prototypes</h3>
+            <p data-i18n="note2Text">Why the right prototype answers a question instead of imitating a finished product.</p>
+          </article>
+          <article>
+            <span class="note-number">03</span>
+            <h3 data-i18n="note3Title">Personal knowledge systems</h3>
+            <p data-i18n="note3Text">How notes, routines, and reusable references make technical work easier to restart.</p>
+          </article>
+          <article>
+            <span class="note-number">04</span>
+            <h3 data-i18n="note4Title">Static sites that stay maintainable</h3>
+            <p data-i18n="note4Text">When plain HTML, CSS, and JavaScript are enough, and how to keep them tidy.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> Fodekami.</p>
+      <a href="index.html" data-i18n="backHome">Back to home</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About - Fodekami</title>
+    <meta name="description" content="About Fodekami: background, focus, working style, and strengths.">
+    <link rel="canonical" href="https://fodekami.github.io/about.html">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-page="about">
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+    <header class="site-header" data-header>
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html" aria-label="Fodekami home">
+          <span class="brand-mark" aria-hidden="true">F</span>
+          <span class="brand-text">Fodekami</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" data-nav-toggle>
+          <span class="sr-only" data-i18n="toggleNav">Toggle navigation</span><span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links" data-nav-links>
+          <a aria-current="page" href="about.html" data-i18n="navAbout">About</a>
+          <a href="projects.html" data-i18n="navProjects">Projects</a>
+          <a href="notes.html" data-i18n="navNotes">Notes</a>
+          <button class="language-toggle" type="button" data-language-toggle aria-label="Switch language">中文</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero section">
+        <p class="eyebrow" data-i18n="navAbout">About</p>
+        <h1 data-i18n="aboutHeroTitle">Practical engineering, clear thinking, and steady learning.</h1>
+        <p class="hero-text" data-i18n="aboutHeroText">
+          I am Fodekami, a developer who enjoys turning open-ended ideas into readable systems,
+          useful interfaces, and reusable knowledge.
+        </p>
+      </section>
+
+      <section class="section section-muted">
+        <div class="section-grid">
+          <div>
+            <p class="eyebrow" data-i18n="aboutProfileEyebrow">Profile</p>
+            <h2 data-i18n="aboutApproachTitle">How I approach work.</h2>
+          </div>
+          <div class="prose">
+            <p data-i18n="aboutApproachText1">
+              I care about software that feels calm to use and reasonable to maintain. That means
+              clear structure, purposeful interaction design, and code that leaves useful clues for
+              the next person reading it.
+            </p>
+            <p data-i18n="aboutApproachText2">
+              My default rhythm is to make progress visible early: draft the shape, test the workflow,
+              reduce uncertainty, and refine once the real constraints are easier to see.
+            </p>
+          </div>
+        </div>
+
+        <div class="skill-grid" aria-label="Core strengths">
+          <article class="skill-card">
+            <h3 data-i18n="aboutSkill1Title">Frontend craft</h3>
+            <p data-i18n="aboutSkill1Text">Responsive layouts, accessibility, performance, and thoughtful interface details.</p>
+          </article>
+          <article class="skill-card">
+            <h3 data-i18n="aboutSkill2Title">System design</h3>
+            <p data-i18n="aboutSkill2Text">APIs, data boundaries, reusable modules, and practical architecture decisions.</p>
+          </article>
+          <article class="skill-card">
+            <h3 data-i18n="aboutSkill3Title">Product sense</h3>
+            <p data-i18n="aboutSkill3Text">Prototypes that answer real questions and keep user workflows in view.</p>
+          </article>
+          <article class="skill-card">
+            <h3 data-i18n="aboutSkill4Title">Documentation</h3>
+            <p data-i18n="aboutSkill4Text">Notes and writeups that preserve context instead of only recording outcomes.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> Fodekami.</p>
+      <a href="index.html" data-i18n="backHome">Back to home</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

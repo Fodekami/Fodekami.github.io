@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="light">
+    <title>Fodekami - Personal Website</title>
+    <meta name="description" content="Fodekami's personal website with simple sections and quick contact links.">
+    <meta name="author" content="Fodekami">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Fodekami - Personal Website">
+    <meta property="og:description" content="A simple personal website for profile, projects, and notes.">
+    <meta property="og:url" content="https://fodekami.github.io/">
+    <meta property="og:site_name" content="Fodekami">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Fodekami - Personal Website">
+    <meta name="twitter:description" content="A simple personal website for profile, projects, and notes.">
+    <link rel="canonical" href="https://fodekami.github.io/">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Fodekami",
+        "url": "https://fodekami.github.io/",
+        "sameAs": ["https://github.com/fodekami"]
+      }
+    </script>
+  </head>
+  <body data-page="home">
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+    <header class="site-header" data-header>
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html" aria-label="Fodekami home">Fodekami</a>
+
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" data-nav-toggle>
+          <span class="sr-only" data-i18n="toggleNav">Toggle navigation</span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="nav-links" data-nav-links>
+          <a href="about.html" data-i18n="navAbout">About</a>
+          <a href="projects.html" data-i18n="navProjects">Projects</a>
+          <a href="notes.html" data-i18n="navNotes">Notes</a>
+          <button class="language-toggle" type="button" data-language-toggle aria-label="Switch language">中文</button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="home-main" id="main" aria-label="Homepage sections">
+      <h1 class="home-tagline" data-i18n="homeTagline">Welcome to Fode's personal site</h1>
+      <div class="home-entry-grid">
+        <a class="home-entry" href="about.html">
+          <span>01</span>
+          <strong data-i18n="navAbout">About</strong>
+        </a>
+        <a class="home-entry" href="projects.html">
+          <span>02</span>
+          <strong data-i18n="navProjects">Projects</strong>
+        </a>
+        <a class="home-entry" href="notes.html">
+          <span>03</span>
+          <strong data-i18n="navNotes">Notes</strong>
+        </a>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> Fodekami</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "Fodekami",
+  "short_name": "Fodekami",
+  "description": "Fodekami's personal website.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f4ec",
+  "theme_color": "#0f766e"
+}

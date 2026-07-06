@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Projects - Fodekami</title>
+    <meta name="description" content="Selected projects, prototypes, and experiments by Fodekami.">
+    <link rel="canonical" href="https://fodekami.github.io/projects.html">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body data-page="projects">
+    <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+    <header class="site-header" data-header>
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="index.html" aria-label="Fodekami home">
+          <span class="brand-mark" aria-hidden="true">F</span>
+          <span class="brand-text">Fodekami</span>
+        </a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links" data-nav-toggle>
+          <span class="sr-only" data-i18n="toggleNav">Toggle navigation</span><span></span><span></span><span></span>
+        </button>
+        <div class="nav-links" id="nav-links" data-nav-links>
+          <a href="about.html" data-i18n="navAbout">About</a>
+          <a aria-current="page" href="projects.html" data-i18n="navProjects">Projects</a>
+          <a href="notes.html" data-i18n="navNotes">Notes</a>
+          <button class="language-toggle" type="button" data-language-toggle aria-label="Switch language">中文</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="page-hero section">
+        <p class="eyebrow" data-i18n="navProjects">Projects</p>
+        <h1 data-i18n="projectsHeroTitle">Selected work and experiments.</h1>
+        <p class="hero-text" data-i18n="projectsHeroText">
+          A curated space for things I have built, prototypes I am exploring, and small tools that
+          make technical work easier to understand.
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="project-grid">
+          <article class="project-card project-card-featured">
+            <div class="project-meta"><span data-i18n="project1Meta">Portfolio</span><span>2026</span></div>
+            <h3 data-i18n="project1Title">Personal Website</h3>
+            <p data-i18n="project1Text">
+              A fast static website organized around four clear sections, built for GitHub Pages
+              without a framework or build pipeline.
+            </p>
+            <ul class="tag-list" aria-label="Technologies">
+              <li>HTML</li><li>CSS</li><li>JavaScript</li>
+            </ul>
+            <a class="text-link" href="https://github.com/fodekami/fodekami.github.io" rel="me" data-i18n="repository">Repository</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta"><span data-i18n="project2Meta">Prototype</span><span data-i18n="active">Active</span></div>
+            <h3 data-i18n="project2Title">Personal Knowledge Hub</h3>
+            <p data-i18n="project2Text">
+              A concept for collecting notes, project logs, reusable snippets, and references so
+              long-running ideas are easier to resume.
+            </p>
+            <ul class="tag-list" aria-label="Topics">
+              <li>Search</li><li>Notes</li><li>Workflow</li>
+            </ul>
+            <a class="text-link" href="notes.html" data-i18n="relatedNotes">Related notes</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-meta"><span data-i18n="project3Meta">Open source</span><span data-i18n="ongoing">Ongoing</span></div>
+            <h3 data-i18n="project3Title">Small Tools</h3>
+            <p data-i18n="project3Text">
+              Lightweight utilities and reference projects built to practice one idea at a time
+              without burying the important mechanics.
+            </p>
+            <ul class="tag-list" aria-label="Topics">
+              <li>CLI</li><li>Testing</li><li>Learning</li>
+            </ul>
+            <a class="text-link" href="https://github.com/fodekami" rel="me" data-i18n="githubProfile">GitHub profile</a>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span data-year></span> Fodekami.</p>
+      <a href="index.html" data-i18n="backHome">Back to home</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
